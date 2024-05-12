@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TibiaNews Archive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to the TibiaNews archive!</h1>
+	<hr>
+	<p>This archive was created by <strong>cyph3rjo3</strong> -a.k.a.- <strong>morshabaal</strong>, May 2024.</p>
+	<p>On this website you can browse old TibiaNews.net articles, dating back over two decades ago.</p>
+	<p>Use the <em>very primitive</em> search function down below, or <a href="data.json" download>download the full archive</a> <strong>(8 MB)</strong> and create your own search function.</p>
+	<p><strong>All the source code</strong> for this website, including the archiving tool, can be found on <a href="https://github.com/morshabaal/tibianews-archive">GitHub</a>.</p>
+	<p>Links posted in articles, including images, can not be guaranteed to work today. Simply use this archive to browse through the text of the articles.</p>
+	<p>All links to the articles in this archive can be found <a href="old-links.txt">here</a> (old TibiaNews) and <a href="new-links.txt">here</a> ("new" TibiaNews, after they redesigned the website).</p>
+	
+	<hr>
+	
+<pre>TibiaNews.net was the largest Tibia news fansite in existence.
+It was frequently visited by thousands of Tibians every month and
+included a ton of articles, interviews and research papers about the game Tibia.
+It shutdown many years ago and the content posted there has, until this day,
+not been searchable in an easy way.</pre>
+	
+	<hr>
+	
+    <fieldset>
+        <legend>Search Archive</legend>
+        <input type="radio" id="searchContent" name="searchOption" value="content" checked>
+        <label for="searchContent">Search Content</label>
+		
+        <input type="radio" id="searchAuthor" name="searchOption" value="author">
+        <label for="searchAuthor">Search Author</label>
+		
+        <input type="radio" id="searchTitle" name="searchOption" value="title">
+        <label for="searchTitle">Search Title</label>
+		
+        <br><br>
+		
+        <input type="checkbox" id="exactMatchCheckbox">
+        <label for="exactMatchCheckbox">Exact match</label>
+		
+        <br><br>
+		
+        <input type="text" id="search" placeholder="Search for content...">
+        <button type="button" id="btnSearch">Search</button>
+    </fieldset>
+    
+    <div id="results"></div>
+    
+    <script src="./script.js" type="module"></script>
+</body>
+</html>

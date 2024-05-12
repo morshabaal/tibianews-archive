@@ -1,0 +1,59 @@
+#results {
+    margin-top: 1rem;
+}
+
+body {
+	background-color: #e8e3d1;
+}
+
+body, div {
+    font-family: monospace;
+}
+
+a {
+	font-weight: bold;
+	color: #1a3050
+}
+
+.article {
+    border: 1px solid silver;
+    padding: 1px;
+    margin-bottom: 16px;
+}
+
+.articletop {
+    padding: 4px;
+    background: #EEEEEE;
+}
+
+.entry {
+    font-weight: bold;
+    clear:both;
+    padding: 0.5rem;
+    background-color: #333333;
+    color: rgb(204, 187, 119);
+}
+
+.entry a {
+    color: silver;
+}
+
+.entry span {
+    margin-left: 0.25rem;
+}
+
+.author {
+    font-weight: bold;
+    width: auto;
+    float: left;
+}
+
+.date {
+    width: auto;
+    text-align: right;
+}
+
+.content {
+    padding: 4px;
+    background: #F9F9F9;
+}
