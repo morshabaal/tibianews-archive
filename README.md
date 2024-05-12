@@ -2,7 +2,7 @@
 This archive was created by **cyph3rjo3** -a.k.a.- **morshabaal**, May 2024.
 
 ## Live Web App
-
+https://morshabaal.github.io/tibianews-archive/
 
 ## Information:
 
